@@ -1,20 +1,21 @@
 package com.sparta.fileReader;
 
 
+import java.sql.Date;
 import java.time.LocalDate;
 import java.util.Arrays;
-import java.util.Date;
+
 
 //Turns the list into a list of employees object type
 public class Employee {
     private int id;
-    private LocalDate DOB;
+    private Date DOB;
     private String firstName;
     private String lastName;
     private char Gender;
-    private  String startingDate;
+    private  Date startingDate;
 
-    public Employee(int id, String DOB, String firstName, String lastName, char gender, String startingDate) {
+    public Employee(int id, Date DOB, String firstName, String lastName, char gender, Date startingDate) {
         this.id = id;
         this.DOB = DOB;
         this.firstName = firstName;
@@ -28,7 +29,7 @@ public class Employee {
     }
 
 
-    public String getDOB() {
+    public Date getDOB() {
         return DOB;
     }
 
@@ -48,7 +49,7 @@ public class Employee {
     }
 
 
-    public String getStartingDate() {
+    public Date getStartingDate() {
         return startingDate;
     }
 
