@@ -28,9 +28,13 @@ public class DatabaseConnector {
         return connection;
     }
 
-    public static void closeConnection() throws SQLException{
+    public static void closeConnection() {
         if (connection != null){
-            connection.close();
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
     private DatabaseConnector(){}

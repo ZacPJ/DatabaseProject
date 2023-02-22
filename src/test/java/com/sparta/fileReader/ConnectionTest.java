@@ -7,6 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;
+import java.sql.SQLException;
 
 public class ConnectionTest {
     @Test
@@ -29,4 +30,26 @@ public class ConnectionTest {
 //        Connection expectedConnection=DatabaseConnector.getConnection();
 //        assertDoesNotThrow(expectedConnection, DatabaseConnector.getConnection());//it only asserts the values equal but not the entire object
 //    }
+    @Test
+    @DisplayName("Given connection created, connection is open")
+    public void givenConnectionCreated_ConnectionOpened(){
+        Connection expectedConnection=DatabaseConnector.getConnection();
+        try {
+            assertTrue(!expectedConnection.isClosed());
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    @Test
+    @DisplayName("Given connection created, close connection make connection closed")
+    public void givenConnectionCreated_ConnectionCanBeClosed(){
+        Connection expectedConnection=DatabaseConnector.getConnection();
+        DatabaseConnector.closeConnection();
+        try {
+            assertTrue(expectedConnection.isClosed());
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 }

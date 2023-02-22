@@ -58,7 +58,39 @@
       <recent name="C:\Users\zp-jo\Documents\Sparta\Week4\DatabaseProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConnectionTest.givenNullConnectionAndNewConnection_NullBecome_NewConnection">
+  <component name="RunManager" selected="JUnit.ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed">
+    <configuration name="ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DatabaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.fileReader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
+      <option name="METHOD_NAME" value="givenConnectionCreated_ConnectionCanBeClosed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionTest.givenConnectionCreated_ConnectionOpened" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DatabaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.fileReader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
+      <option name="METHOD_NAME" value="givenConnectionCreated_ConnectionOpened" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConnectionTest.givenNotNullConnection_Return_Connection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatabaseProject" />
       <extension name="coverage">
@@ -109,8 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConnectionTest.givenNullConnectionAndNewConnection_NullBecome_NewConnection" />
+        <item itemvalue="JUnit.ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed" />
+        <item itemvalue="JUnit.ConnectionTest.givenConnectionCreated_ConnectionOpened" />
         <item itemvalue="JUnit.ConnectionTest.givenNotNullConnection_Return_Connection" />
+        <item itemvalue="JUnit.ConnectionTest.givenNullConnectionAndNewConnection_NullBecome_NewConnection" />
         <item itemvalue="JUnit.ConnectionTest.givenNullConnection_Return_NewConnection" />
       </list>
     </recent_temporary>
