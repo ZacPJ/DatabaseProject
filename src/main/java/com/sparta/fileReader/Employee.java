@@ -1,13 +1,14 @@
 package com.sparta.fileReader;
 
 
+import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.Date;
 
 //Turns the list into a list of employees object type
 public class Employee {
     private int id;
-    private String DOB;
+    private LocalDate DOB;
     private String firstName;
     private String lastName;
     private char Gender;
