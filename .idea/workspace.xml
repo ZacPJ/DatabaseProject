@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a0fcb6c5-e9c2-4a83-80a3-ec67acf9ea8c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/fileWriter/FileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/fileWriter/FileWriter.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="a0fcb6c5-e9c2-4a83-80a3-ec67acf9ea8c" name="Changes" comment="" />
+>>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +21,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+<<<<<<< HEAD
         <option value="JUnit5 Test Class" />
+=======
+>>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
       </list>
     </option>
   </component>
@@ -28,11 +35,14 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+<<<<<<< HEAD
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+=======
+>>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -51,9 +61,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+<<<<<<< HEAD
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/Liam/SpartaGlobal/FileIOLesson",
+=======
+    "last_opened_file_path": "C:/Users/Jason/Desktop/JavaSpring/BinaryTree",
+>>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,6 +82,7 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zp-jo\Documents\Sparta\Week4\DatabaseProject\src\main\resources" />
     </key>
+<<<<<<< HEAD
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -91,6 +106,11 @@
       </method>
     </configuration>
     <configuration name="EmployeeFactoryTest.givenAReader_ReturnArrayOfStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+  </component>
+  <component name="RunManager" selected="JUnit.ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed">
+    <configuration name="ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +119,77 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.EmployeeFactoryTest" />
       <option name="METHOD_NAME" value="givenAReader_ReturnArrayOfStrings" />
+=======
+      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
+      <option name="METHOD_NAME" value="givenConnectionCreated_ConnectionCanBeClosed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionTest.givenConnectionCreated_ConnectionOpened" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DatabaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.fileReader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
+      <option name="METHOD_NAME" value="givenConnectionCreated_ConnectionOpened" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionTest.givenNotNullConnection_Return_Connection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DatabaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.fileReader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
+      <option name="METHOD_NAME" value="givenNotNullConnection_Return_Connection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionTest.givenNullConnectionAndNewConnection_NullBecome_NewConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DatabaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.fileReader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
+      <option name="METHOD_NAME" value="givenNullConnectionAndNewConnection_NullBecome_NewConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionTest.givenNullConnection_Return_NewConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DatabaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.fileReader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
+      <option name="METHOD_NAME" value="givenNullConnection_Return_NewConnection" />
+>>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,8 +197,16 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.EmployeeFactoryTest.givenAReader_ReturnArrayOfStrings" />
         <item itemvalue="Application.EmployeeFactory" />
+=======
+        <item itemvalue="JUnit.ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed" />
+        <item itemvalue="JUnit.ConnectionTest.givenConnectionCreated_ConnectionOpened" />
+        <item itemvalue="JUnit.ConnectionTest.givenNotNullConnection_Return_Connection" />
+        <item itemvalue="JUnit.ConnectionTest.givenNullConnectionAndNewConnection_NullBecome_NewConnection" />
+        <item itemvalue="JUnit.ConnectionTest.givenNullConnection_Return_NewConnection" />
+>>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
       </list>
     </recent_temporary>
   </component>
@@ -128,4 +225,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+>>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
 </project>

@@ -1,13 +1,43 @@
 package com.sparta.Database;
 
+
+import java.io.FileReader;
+import java.io.IOException;
 import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.Properties;
 
-//Connect to and close the database
 public class DatabaseConnector {
-    public Connection getConnection(){
-    return null;
-    }
-    public void CloseConnection(){
+    private static Connection connection = null;
+    public static Connection getConnection() {
+        if(connection == null){
+            Properties props = new Properties();
+            try {
+                props.load(new FileReader("src/main/resources/dbconnect.properties"));
+                connection = DriverManager.getConnection(
+                        props.getProperty("dburl"),
+                        props.getProperty("dbuser"),
+                        props.getProperty("dbpassword")
+                );
 
+            } catch (IOException | SQLException e) {
+                throw new RuntimeException(e);
+            }
+        }
+        return connection;
     }
+
+    public static void closeConnection() {
+        if (connection != null){
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+    private DatabaseConnector(){}
+
+
 }
