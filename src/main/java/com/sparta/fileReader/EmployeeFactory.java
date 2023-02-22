@@ -1,2 +1,7 @@
-package com.sparta.fileReader;public class EmployeeFactory {
+package com.sparta.fileReader;
+//Read each line from csv
+public class EmployeeFactory {
+    public String[] fileReader(){
+    return null;
+    }
 }
