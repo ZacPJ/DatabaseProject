@@ -1,2 +1,4 @@
-package com.sparta.fileWriter;public class FileWriter {
+package com.sparta.fileWriter;
+
+public class FileWriter {
 }
