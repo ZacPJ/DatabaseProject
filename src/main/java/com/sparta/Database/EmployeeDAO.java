@@ -1,14 +1,10 @@
 package com.sparta.Database;
 
+import com.sparta.fileReader.Employee;
 import com.sparta.fileReader.EmployeeCreator;
 
-import java.io.IOException;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class EmployeeDAO implements DAO {
@@ -18,11 +14,11 @@ public class EmployeeDAO implements DAO {
     }
 
     @Override
-    public void readAll() {
+    public List<Employee> readAll() {
         Statement statement = null;
         ResultSet rs = null;
-
-        List<Object> employeeList = new ArrayList<>();
+        List<Employee> allEmployees = new ArrayList<Employee>();
+        Object[] employeeList = new Object[6];
 
         try{
             Connection connection = DatabaseConnector.getConnection();
@@ -30,20 +26,21 @@ public class EmployeeDAO implements DAO {
             rs = statement.executeQuery("SELECT * FROM employees.employees");
 
             while(rs.next()){
-                employeeList.add(rs.getInt(1));
-                employeeList.add(rs.getDate(2));
-                employeeList.add(rs.getString(3));
-                employeeList.add(rs.getString(4));
-                employeeList.add(rs.getString(5));
-                employeeList.add(rs.getDate(6));
+                employeeList[0]=(rs.getInt(1));
+                employeeList[1]=(rs.getDate(2));
+                employeeList[2]=(rs.getString(3));
+                employeeList[3]=(rs.getString(4));
+                employeeList[4]=(rs.getString(5));
+                employeeList[5]=(rs.getDate(6));
+                allEmployees.add(EmployeeCreator.createEmployee(employeeList));
             }
 
-            Object[] employeesObjects = employeeList.toArray();
-            EmployeeCreator.createEmployee(employeesObjects);
+        return allEmployees;
+
         } catch (SQLException e){
             throw new RuntimeException(e);
         } finally{
-                DatabaseConnector.CloseConnection();
+                DatabaseConnector.closeConnection();
         }
     }
 }

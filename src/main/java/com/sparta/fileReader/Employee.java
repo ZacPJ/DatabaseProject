@@ -12,15 +12,15 @@ public class Employee {
     private Date DOB;
     private String firstName;
     private String lastName;
-    private char Gender;
+    private String Gender;
     private  Date startingDate;
 
-    public Employee(int id, Date DOB, String firstName, String lastName, char gender, Date startingDate) {
+    public Employee(int id, Date DOB, String firstName, String lastName, String gender, Date startingDate) {
         this.id = id;
         this.DOB = DOB;
         this.firstName = firstName;
         this.lastName = lastName;
-        Gender = gender;
+        this.Gender = gender;
         this.startingDate = startingDate;
     }
 
@@ -44,7 +44,7 @@ public class Employee {
     }
 
 
-    public char getGender() {
+    public String getGender() {
         return Gender;
     }
 
