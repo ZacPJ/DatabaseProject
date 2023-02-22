@@ -17,7 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -45,6 +47,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -61,7 +64,7 @@
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zp-jo\Documents\Sparta\Week4\DatabaseProject\src\main\resources" />
@@ -73,6 +76,7 @@
       <recent name="com.sparta.fileReader" />
     </key>
   </component>
+
   <component name="RunManager" selected="JUnit.EmployeeFactoryTest.givenAReader_ReturnArrayOfStrings">
     <configuration name="EmployeeFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.EmployeeFactory" />
@@ -83,10 +87,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="EmployeeFactoryTest.givenAReader_ReturnArrayOfStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatabaseProject" />
       <extension name="coverage">
@@ -96,17 +102,21 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
+
       <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.EmployeeFactoryTest" />
       <option name="METHOD_NAME" value="givenAReader_ReturnArrayOfStrings" />
+
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.EmployeeFactoryTest.givenAReader_ReturnArrayOfStrings" />
         <item itemvalue="Application.EmployeeFactory" />
+
       </list>
     </recent_temporary>
   </component>
@@ -118,11 +128,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676995718190</updated>
-      <workItem from="1676995719310" duration="706000" />
+      <workItem from="1676995719310" duration="18528000" />
+      <workItem from="1677076329330" duration="322000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sparta/fileReader/EmployeeCreatorTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,2 +1,4 @@
-package com.sparta.LoggerFormat;public class LoggerFormatter {
+package com.sparta.LoggerFormat;
+
+public class LoggerFormatter {
 }
