@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a0fcb6c5-e9c2-4a83-80a3-ec67acf9ea8c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/EmployeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/fileReader/EmployeeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/fileReader/EmployeeFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -42,24 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zp-jo/SerializationProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Liam/SpartaGlobal/DatabaseProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
 }</component>
   <component name="RecentsManager">
@@ -73,8 +76,10 @@
       <recent name="com.sparta.fileReader" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeCreatorTest">
-    <configuration name="EmployeeCreatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+
+  <component name="RunManager" selected="JUnit.EmployeeFactoryTest.givenAReader_ReturnArrayOfStrings">
+    <configuration name="EmployeeFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.EmployeeFactory" />
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
@@ -82,14 +87,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.EmployeeCreatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeCreatorTest.returnEmployeeGivenArrayOfStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+
+    <configuration name="EmployeeFactoryTest.givenAReader_ReturnArrayOfStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
@@ -98,33 +102,21 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.EmployeeCreatorTest" />
-      <option name="METHOD_NAME" value="returnEmployeeGivenArrayOfStrings" />
+
+      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.EmployeeFactoryTest" />
+      <option name="METHOD_NAME" value="givenAReader_ReturnArrayOfStrings" />
+
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DatabaseProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparta.fileReader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.EmployeeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeCreatorTest" />
-        <item itemvalue="JUnit.EmployeeTest" />
-        <item itemvalue="JUnit.EmployeeCreatorTest.returnEmployeeGivenArrayOfStrings" />
+        <item itemvalue="JUnit.EmployeeFactoryTest.givenAReader_ReturnArrayOfStrings" />
+        <item itemvalue="Application.EmployeeFactory" />
+
       </list>
     </recent_temporary>
   </component>
