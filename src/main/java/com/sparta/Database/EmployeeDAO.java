@@ -43,7 +43,7 @@ public class EmployeeDAO implements DAO {
         } catch (SQLException e){
             throw new RuntimeException(e);
         } finally{
-                DatabaseConnector.CloseConnection();
+                DatabaseConnector.closeConnection();
         }
     }
 }
