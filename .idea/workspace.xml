@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="a0fcb6c5-e9c2-4a83-80a3-ec67acf9ea8c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/fileWriter/FileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/fileWriter/FileWriter.java" afterDir="false" />
@@ -12,6 +13,26 @@
 =======
     <list default="true" id="a0fcb6c5-e9c2-4a83-80a3-ec67acf9ea8c" name="Changes" comment="" />
 >>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
+=======
+    <list default="true" id="a0fcb6c5-e9c2-4a83-80a3-ec67acf9ea8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Conversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToJSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConverterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Database/DepartmentFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/AskUserForFileName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/ConverterChoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/DepartmentChoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/PeriodChoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Database/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Database/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Database/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Database/EmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/fileReader/EmployeeCreatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/fileReader/EmployeeCreatorTest.java" afterDir="false" />
+    </list>
+>>>>>>> 7a43ba905a8f5fe9178a545985ae93e6ba5be950
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +41,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
 <<<<<<< HEAD
         <option value="JUnit5 Test Class" />
@@ -62,19 +86,27 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/Liam/SpartaGlobal/FileIOLesson",
 =======
     "last_opened_file_path": "C:/Users/Jason/Desktop/JavaSpring/BinaryTree",
 >>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
+=======
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/zp-jo/Documents/Sparta/Week3/DesignPattersLesson",
+>>>>>>> 7a43ba905a8f5fe9178a545985ae93e6ba5be950
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,11 +115,15 @@
       <recent name="C:\Users\zp-jo\Documents\Sparta\Week4\DatabaseProject\src\main\resources" />
     </key>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a43ba905a8f5fe9178a545985ae93e6ba5be950
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.sparta.Database" />
+<<<<<<< HEAD
       <recent name="com.sparta.fileReader" />
     </key>
   </component>
@@ -107,8 +143,24 @@
     </configuration>
     <configuration name="EmployeeFactoryTest.givenAReader_ReturnArrayOfStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
 =======
+=======
+    </key>
+>>>>>>> 7a43ba905a8f5fe9178a545985ae93e6ba5be950
   </component>
-  <component name="RunManager" selected="JUnit.ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparta.Main" />
+      <module name="DatabaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
 >>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
       <module name="DatabaseProject" />
@@ -146,7 +198,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionTest.givenNotNullConnection_Return_Connection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeCreatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
@@ -155,21 +207,21 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
-      <option name="METHOD_NAME" value="givenNotNullConnection_Return_Connection" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.EmployeeCreatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionTest.givenNullConnectionAndNewConnection_NullBecome_NewConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeDAOTest.displayEmployeeRowOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sparta.fileReader.*" />
+          <option name="PATTERN" value="com.sparta.Database.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
       <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
       <option name="METHOD_NAME" value="givenNullConnectionAndNewConnection_NullBecome_NewConnection" />
@@ -190,6 +242,11 @@
       <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
       <option name="METHOD_NAME" value="givenNullConnection_Return_NewConnection" />
 >>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
+=======
+      <option name="PACKAGE_NAME" value="com.sparta.Database" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.Database.EmployeeDAOTest" />
+      <option name="METHOD_NAME" value="displayEmployeeRowOne" />
+>>>>>>> 7a43ba905a8f5fe9178a545985ae93e6ba5be950
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,6 +254,7 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <item itemvalue="JUnit.EmployeeFactoryTest.givenAReader_ReturnArrayOfStrings" />
         <item itemvalue="Application.EmployeeFactory" />
@@ -207,6 +265,13 @@
         <item itemvalue="JUnit.ConnectionTest.givenNullConnectionAndNewConnection_NullBecome_NewConnection" />
         <item itemvalue="JUnit.ConnectionTest.givenNullConnection_Return_NewConnection" />
 >>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
+=======
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.EmployeeCreatorTest" />
+        <item itemvalue="JUnit.EmployeeDAOTest.displayEmployeeRowOne" />
+        <item itemvalue="JUnit.ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed" />
+        <item itemvalue="JUnit.ConnectionTest.givenConnectionCreated_ConnectionOpened" />
+>>>>>>> 7a43ba905a8f5fe9178a545985ae93e6ba5be950
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +284,8 @@
       <option name="presentableId" value="Default" />
       <updated>1676995718190</updated>
       <workItem from="1676995719310" duration="706000" />
+      <workItem from="1677088316653" duration="9965000" />
+      <workItem from="1677161520967" duration="8386000" />
     </task>
     <servers />
   </component>
@@ -238,5 +305,23 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
 >>>>>>> 6f42d3db1ee28c779c4d9b0cfd8770cfd86b5c17
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+>>>>>>> 7a43ba905a8f5fe9178a545985ae93e6ba5be950
 </project>

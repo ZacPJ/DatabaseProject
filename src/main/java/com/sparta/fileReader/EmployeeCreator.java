@@ -13,7 +13,7 @@ public class EmployeeCreator {
                     (Date) employeeData[1],
                     (String) employeeData[2],
                     (String) employeeData[3],
-                    (Character) employeeData[4],
+                    (String) employeeData[4],
                     (Date) employeeData[5]
             );
             return employee;
