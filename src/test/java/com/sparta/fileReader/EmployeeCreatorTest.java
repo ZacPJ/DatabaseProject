@@ -17,7 +17,7 @@ class EmployeeCreatorTest {
     void returnEmployeeGivenArrayOfStrings(){
         Object[] input = {1,new Date(2012/02/11),"Zac","Perkins-Jones","M",new Date(2012/02/11)};
         Employee employee = EmployeeCreator.createEmployee(input);
-        Employee expected = new Employee(1,new Date(2012/02/11),"Zac","Perkins-Jones",'M',new Date(2012/02/11));
+        Employee expected = new Employee(1,new Date(2012/02/11),"Zac","Perkins-Jones","M",new Date(2012/02/11));
         assertEquals(employee,expected);
     }
 

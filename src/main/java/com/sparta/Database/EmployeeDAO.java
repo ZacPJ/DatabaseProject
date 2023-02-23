@@ -1,5 +1,7 @@
 package com.sparta.Database;
 
+import com.sparta.Scanner.DepartmentChoice;
+import com.sparta.Scanner.PeriodChoice;
 import com.sparta.fileReader.Employee;
 import com.sparta.fileReader.EmployeeCreator;
 
@@ -14,10 +16,10 @@ public class EmployeeDAO implements DAO {
     }
 
     @Override
-    public List<Employee> readAll() {
+    public List<Object> readAll() {
         Statement statement = null;
         ResultSet rs = null;
-        List<Employee> allEmployees = new ArrayList<Employee>();
+        List<Object> allEmployees = new ArrayList<Object>();
         Object[] employeeList = new Object[6];
 
         try{
@@ -42,5 +44,14 @@ public class EmployeeDAO implements DAO {
         } finally{
                 DatabaseConnector.closeConnection();
         }
+    }
+
+    @Override
+    public List<Object> readByFilter() {
+
+        int[] emploeeIDs = DepartmentFilter.filterDepartment(DepartmentChoice.chooseDepartment(), PeriodChoice.choosePeriod()[0], PeriodChoice.choosePeriod()[1]);
+
+
+        return null;
     }
 }
