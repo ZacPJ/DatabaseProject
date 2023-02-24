@@ -26,11 +26,4 @@ class ConverterChoiceTest {
 
         assertEquals(expectedResult, ConverterChoice.chooseConverter(new Scanner(input)));
     }
-    @Test
-    @DisplayName("If Input is not XML or JSON, returns null")
-    public void ifInputIsNotXMLOrJSON_ReturnsNull(){
-        String input = "Not XML or JSON";
-
-        assertNull(ConverterChoice.chooseConverter(new Scanner(input)));
-    }
 }

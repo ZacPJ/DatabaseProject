@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9be819e0-1f3a-48ea-b8e0-a3ff9630af80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/Scanner/ConverterChoiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Conversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/ConverterChoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/ConverterChoice.java" afterDir="false" />
-    </list>
+    <list default="true" id="9be819e0-1f3a-48ea-b8e0-a3ff9630af80" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
