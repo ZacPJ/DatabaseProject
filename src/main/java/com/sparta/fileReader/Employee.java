@@ -19,16 +19,16 @@ public class Employee {
     @JsonSerialize(using = DateSerializer.class)
     @JsonDeserialize(using = DateDeserializers.DateDeserializer.class)
     @JsonFormat(pattern = "yyyy/MM/dd")
-    private Date DOB;
+    private String DOB;
     private String firstName;
     private String lastName;
     private String Gender;
     @JsonSerialize(using = DateSerializer.class)
     @JsonDeserialize(using = DateDeserializers.DateDeserializer.class)
     @JsonFormat(pattern = "yyyy/MM/dd")
-    private  Date startingDate;
+    private  String startingDate;
 
-    public Employee(int id, Date DOB, String firstName, String lastName, String gender, Date startingDate) {
+    public Employee(int id, String DOB, String firstName, String lastName, String gender, String startingDate) {
         this.id = id;
 
         this.DOB = DOB;
@@ -43,7 +43,7 @@ public class Employee {
     }
 
 
-    public Date getDOB() {
+    public String getDOB() {
         return DOB;
     }
 
@@ -63,7 +63,7 @@ public class Employee {
     }
 
 
-    public Date getStartingDate() {
+    public String getStartingDate() {
         return startingDate;
     }
 
