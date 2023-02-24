@@ -1,8 +1,8 @@
 package com.sparta.fileWriter;
 
-import java.util.Scanner;
 
 //writes read employees to an output file
+
 public class FileWriter {
 
     public static String getFileName(){
