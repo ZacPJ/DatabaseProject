@@ -11,9 +11,19 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EmployeeDAOTest {
     @Test
-    @DisplayName("Display Employee Row 1")
-    void displayEmployeeRowOne() {
+
+    @DisplayName("Display Employees")
+    void displayEmployeeRowOne(){
         EmployeeDAO employeeDAO = new EmployeeDAO();
-        employeeDAO.readAll();
+        Object output = employeeDAO.readAll();
+        assertTrue(output!=null);
+}
+    @Test
+    @DisplayName("Test Filters")
+    void testFilter(){
+        EmployeeDAO employeeDAO = new EmployeeDAO();
+        Object output = employeeDAO.readByFilter();
+        System.out.println(output);
+
     }
 }
