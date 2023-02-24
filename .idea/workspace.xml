@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0fcb6c5-e9c2-4a83-80a3-ec67acf9ea8c" name="Changes" comment="">
+
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/Converters/ConvertToJSONTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/Converters/ConvertToXmlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/Converters/ConverterFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Database/DepartmentFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Database/DepartmentFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Database/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Database/EmployeeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/PeriodChoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/PeriodChoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Conversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Converter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/EmployeeCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/EmployeeCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/Database/EmployeeDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/Database/EmployeeDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/fileReader/EmployeeCreatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/fileReader/EmployeeCreatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/fileReader/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/fileReader/EmployeeTest.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,31 +85,37 @@
       <recent name="com.sparta.Database" />
     </key>
   </component>
+
   <component name="RunManager" selected="JUnit.EmployeeDAOTest.testFilter">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sparta.Main" />
+
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sparta.*" />
+          <option name="PATTERN" value="com.sparta.Converters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.Converters" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.Converters.ConvertToJSONTest" />
+      <option name="METHOD_NAME" value="givenEmployees_CreatingFilesContainingTem" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConvertToJSONTest.givenNoEmployees_Create_JsonfileCalledtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sparta.fileReader.*" />
+          <option name="PATTERN" value="com.sparta.Converters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
-      <option name="METHOD_NAME" value="givenConnectionCreated_ConnectionCanBeClosed" />
+      <option name="PACKAGE_NAME" value="com.sparta.Converters" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.Converters.ConvertToJSONTest" />
+      <option name="METHOD_NAME" value="givenNoEmployees_Create_JsonfileCalledtest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,7 +125,7 @@
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sparta.fileReader.*" />
+          <option name="PATTERN" value="com.sparta.Converters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeDAOTest.displayEmployeeRowOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+ration name="EmployeeDAOTest.displayEmployeeRowOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
@@ -137,22 +147,27 @@
       <option name="PACKAGE_NAME" value="com.sparta.Database" />
       <option name="MAIN_CLASS_NAME" value="com.sparta.Database.EmployeeDAOTest" />
       <option name="METHOD_NAME" value="displayEmployeeRowOne" />
+
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="EmployeeDAOTest.testFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sparta.Database.*" />
+          <option name="PATTERN" value="com.sparta.Converters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
       <option name="PACKAGE_NAME" value="com.sparta.Database" />
       <option name="MAIN_CLASS_NAME" value="com.sparta.Database.EmployeeDAOTest" />
       <option name="METHOD_NAME" value="testFilter" />
+
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -200,9 +215,18 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/sparta/Converters/ConvertToJSONTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sparta/Converters/ConvertToJSONTest.java</url>
+          <line>31</line>
+          <properties class="com.sparta.Converters.ConvertToJSONTest" method="givenEmployees_CreatingFilesContainingTem">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/sparta/Database/EmployeeDAOTest.java</url>
