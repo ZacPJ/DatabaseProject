@@ -47,6 +47,8 @@
       <MavenGeneralSettings>
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
+
+
     </option>
   </component>
   <component name="ProjectId" id="2M3UN5kheZ0I2E9ZQ1sVYTRcRlS" />
@@ -85,6 +87,7 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.sparta.Database" />
+      <recent name="com.sparta.fileReader" />
     </key>
   </component>
 
