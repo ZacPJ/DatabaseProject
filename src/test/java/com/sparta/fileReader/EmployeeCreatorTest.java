@@ -15,9 +15,9 @@ class EmployeeCreatorTest {
     @Test
     @DisplayName("Returns Employee type given array of strings")
     void returnEmployeeGivenArrayOfStrings(){
-        Object[] input = {1,new Date(2012/02/11),"Zac","Perkins-Jones","M",new Date(2012/02/11)};
+        Object[] input = {1,"2012/02/01","Zac","Perkins-Jones","M","2012/02/01"};
         Employee employee = EmployeeCreator.createEmployee(input);
-        Employee expected = new Employee(1,new Date(2012/02/11),"Zac","Perkins-Jones","M",new Date(2012/02/11));
+        Employee expected = new Employee(1,"2012/02/01","Zac","Perkins-Jones","M","2012/02/01");
         assertEquals(employee,expected);
     }
 

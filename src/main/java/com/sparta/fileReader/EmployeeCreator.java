@@ -10,11 +10,11 @@ public class EmployeeCreator {
         if (employeeData!=null) {
             Employee employee = new Employee(
                     (Integer) employeeData[0],
-                    (Date) employeeData[1],
+                    (String) employeeData[1],
                     (String) employeeData[2],
                     (String) employeeData[3],
                     (String) employeeData[4],
-                    (Date) employeeData[5]
+                    (String) employeeData[5]
             );
             return employee;
         }else {
