@@ -3,8 +3,8 @@ package com.sparta.LoggerFormat;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Logger {
-    public final static Logger logger = Logger.getLogger(Logger.class.getName());
+public class LoggerClass {
+    public final static Logger logger = Logger.getLogger(LoggerClass.class.getName());
 
     public static void createLog(String lvl, String msg){
         logger.setUseParentHandlers(false);
@@ -29,10 +29,4 @@ public class Logger {
         }
     }
 }
-    Note that in this version, we're using equals method to compare strings instead of the switch statement. Also, we're using else if instead of -> to check multiple conditions.
 
-
-
-
-
-        }
