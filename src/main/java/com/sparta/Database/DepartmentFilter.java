@@ -11,7 +11,7 @@ public class DepartmentFilter {
     public static ArrayList<Integer> filterDepartment(String userDepartmentInput, Date minDate, Date maxDate){
 
 
-        ArrayList<Integer> employeeIdArray = new ArrayList<>();
+        ArrayList<Integer> employeeIdArrayList = new ArrayList<>();
         PreparedStatement preparedStatement = null;
         ResultSet rs = null;
 
@@ -36,7 +36,7 @@ public class DepartmentFilter {
             while (rs.next()) {
                 System.out.println(
                                 // SQL columns indexed from 1
-                        employeeIdArray.add(rs.getInt("employees.emp_no"))
+                        employeeIdArrayList.add(rs.getInt("employees.emp_no"))
 
                 );
             }
@@ -45,6 +45,6 @@ public class DepartmentFilter {
         }
 
 
-    return employeeIdArray;
+    return employeeIdArrayList;
     }
 }
