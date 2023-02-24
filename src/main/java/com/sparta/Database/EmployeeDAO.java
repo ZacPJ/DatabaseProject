@@ -49,7 +49,7 @@ public class EmployeeDAO implements DAO {
     @Override
     public List<Object> readByFilter() {
 
-        int[] emploeeIDs = DepartmentFilter.filterDepartment(DepartmentChoice.chooseDepartment(), PeriodChoice.choosePeriod()[0], PeriodChoice.choosePeriod()[1]);
+        int[] employeeIds = DepartmentFilter.filterDepartment(DepartmentChoice.chooseDepartment(), PeriodChoice.choosePeriod()[0], PeriodChoice.choosePeriod()[1]);
 
 
         return null;
