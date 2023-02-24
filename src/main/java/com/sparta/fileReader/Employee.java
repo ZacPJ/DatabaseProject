@@ -9,13 +9,13 @@ import java.util.Arrays;
 //Turns the list into a list of employees object type
 public class Employee {
     private int id;
-    private Date DOB;
+    private String DOB;
     private String firstName;
     private String lastName;
     private String Gender;
-    private  Date startingDate;
+    private  String startingDate;
 
-    public Employee(int id, Date DOB, String firstName, String lastName, String gender, Date startingDate) {
+    public Employee(int id, String DOB, String firstName, String lastName, String gender, String startingDate) {
         this.id = id;
         this.DOB = DOB;
         this.firstName = firstName;
@@ -29,7 +29,7 @@ public class Employee {
     }
 
 
-    public Date getDOB() {
+    public String getDOB() {
         return DOB;
     }
 
@@ -49,7 +49,7 @@ public class Employee {
     }
 
 
-    public Date getStartingDate() {
+    public String getStartingDate() {
         return startingDate;
     }
 

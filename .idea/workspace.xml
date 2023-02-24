@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0fcb6c5-e9c2-4a83-80a3-ec67acf9ea8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToJSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConverterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Database/DepartmentFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/AskUserForFileName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/ConverterChoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/DepartmentChoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Scanner/PeriodChoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/Converters/ConvertToJSONTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/Converters/ConvertToXmlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/Converters/ConverterFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Database/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Database/DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Database/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Database/EmployeeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/fileReader/EmployeeCreatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/fileReader/EmployeeCreatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Conversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/ConvertToXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/Converters/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/EmployeeCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/EmployeeCreator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,27 +51,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/zp-jo/Documents/Sparta/Week3/DesignPattersLesson",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zp-jo/Documents/Sparta/Week3/DesignPattersLesson&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zp-jo\Documents\Sparta\Week4\DatabaseProject\src\main\resources" />
@@ -88,78 +83,81 @@
       <recent name="com.sparta.Database" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sparta.Main" />
+  <component name="RunManager" selected="JUnit.ConvertToJSONTest.givenEmployees_CreatingFilesContainingTem">
+    <configuration name="ConvertToJSONTest.givenEmployees_CreatingFilesContainingTem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sparta.*" />
+          <option name="PATTERN" value="com.sparta.Converters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DatabaseProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparta.fileReader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
-      <option name="METHOD_NAME" value="givenConnectionCreated_ConnectionCanBeClosed" />
+      <option name="PACKAGE_NAME" value="com.sparta.Converters" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.Converters.ConvertToJSONTest" />
+      <option name="METHOD_NAME" value="givenEmployees_CreatingFilesContainingTem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionTest.givenConnectionCreated_ConnectionOpened" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConvertToJSONTest.givenNoEmployees_Create_JsonfileCalledtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sparta.fileReader.*" />
+          <option name="PATTERN" value="com.sparta.Converters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.ConnectionTest" />
-      <option name="METHOD_NAME" value="givenConnectionCreated_ConnectionOpened" />
+      <option name="PACKAGE_NAME" value="com.sparta.Converters" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.Converters.ConvertToJSONTest" />
+      <option name="METHOD_NAME" value="givenNoEmployees_Create_JsonfileCalledtest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeCreatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConverterFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sparta.fileReader.*" />
+          <option name="PATTERN" value="com.sparta.Converters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.fileReader" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.fileReader.EmployeeCreatorTest" />
+      <option name="PACKAGE_NAME" value="com.sparta.Converters" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.Converters.ConverterFactoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeDAOTest.displayEmployeeRowOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConverterFactoryTest.givenJsonChoice_returnJSONConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatabaseProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sparta.Database.*" />
+          <option name="PATTERN" value="com.sparta.Converters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.Database" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.Database.EmployeeDAOTest" />
-      <option name="METHOD_NAME" value="displayEmployeeRowOne" />
+      <option name="PACKAGE_NAME" value="com.sparta.Converters" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.Converters.ConverterFactoryTest" />
+      <option name="METHOD_NAME" value="givenJsonChoice_returnJSONConverter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConverterFactoryTest.givenXmlChoice_returnXMLConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DatabaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.Converters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.Converters" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.Converters.ConverterFactoryTest" />
+      <option name="METHOD_NAME" value="givenXmlChoice_returnXMLConverter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.EmployeeCreatorTest" />
-        <item itemvalue="JUnit.EmployeeDAOTest.displayEmployeeRowOne" />
-        <item itemvalue="JUnit.ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed" />
-        <item itemvalue="JUnit.ConnectionTest.givenConnectionCreated_ConnectionOpened" />
+        <item itemvalue="JUnit.ConvertToJSONTest.givenEmployees_CreatingFilesContainingTem" />
+        <item itemvalue="JUnit.ConvertToJSONTest.givenNoEmployees_Create_JsonfileCalledtest" />
+        <item itemvalue="JUnit.ConverterFactoryTest" />
+        <item itemvalue="JUnit.ConverterFactoryTest.givenJsonChoice_returnJSONConverter" />
+        <item itemvalue="JUnit.ConverterFactoryTest.givenXmlChoice_returnXMLConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -207,9 +205,18 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/sparta/Converters/ConvertToJSONTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sparta/Converters/ConvertToJSONTest.java</url>
+          <line>31</line>
+          <properties class="com.sparta.Converters.ConvertToJSONTest" method="givenEmployees_CreatingFilesContainingTem">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
