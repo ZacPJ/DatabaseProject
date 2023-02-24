@@ -20,7 +20,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/EmployeeCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/fileReader/EmployeeCreator.java" afterDir="false" />
 
 
-
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,6 @@
       <recent name="com.sparta.fileReader" />
     </key>
   </component>
-
   <component name="RunManager" selected="JUnit.EmployeeDAOTest.testFilter">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sparta.Main" />
@@ -181,9 +179,9 @@ ration name="EmployeeDAOTest.displayEmployeeRowOne" type="JUnit" factoryName="JU
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.EmployeeDAOTest.testFilter" />
         <item itemvalue="JUnit.EmployeeDAOTest.displayEmployeeRowOne" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.EmployeeCreatorTest" />
         <item itemvalue="JUnit.ConnectionTest.givenConnectionCreated_ConnectionCanBeClosed" />
       </list>
@@ -222,6 +220,7 @@ ration name="EmployeeDAOTest.displayEmployeeRowOne" type="JUnit" factoryName="JU
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+
           <url>file://$PROJECT_DIR$/src/test/java/com/sparta/Converters/ConvertToJSONTest.java</url>
           <line>47</line>
           <option name="timeStamp" value="6" />
