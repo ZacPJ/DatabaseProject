@@ -1,6 +1,13 @@
 package com.sparta.fileReader;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.deser.std.DateDeserializers;
+import com.fasterxml.jackson.databind.ser.std.DateSerializer;
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
+
 import java.sql.Date;
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -9,14 +16,21 @@ import java.util.Arrays;
 //Turns the list into a list of employees object type
 public class Employee {
     private int id;
+    @JsonSerialize(using = DateSerializer.class)
+    @JsonDeserialize(using = DateDeserializers.DateDeserializer.class)
+    @JsonFormat(pattern = "yyyy/MM/dd")
     private String DOB;
     private String firstName;
     private String lastName;
     private String Gender;
+    @JsonSerialize(using = DateSerializer.class)
+    @JsonDeserialize(using = DateDeserializers.DateDeserializer.class)
+    @JsonFormat(pattern = "yyyy/MM/dd")
     private  String startingDate;
 
     public Employee(int id, String DOB, String firstName, String lastName, String gender, String startingDate) {
         this.id = id;
+
         this.DOB = DOB;
         this.firstName = firstName;
         this.lastName = lastName;
