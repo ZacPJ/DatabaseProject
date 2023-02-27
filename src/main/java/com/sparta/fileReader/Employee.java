@@ -15,67 +15,66 @@ import java.util.Arrays;
 
 //Turns the list into a list of employees object type
 public class Employee {
-    private int id;
-    @JsonSerialize(using = DateSerializer.class)
-    @JsonDeserialize(using = DateDeserializers.DateDeserializer.class)
+    private int emp_no;
     @JsonFormat(pattern = "yyyy/MM/dd")
-    private String DOB;
-    private String firstName;
-    private String lastName;
-    private String Gender;
-    @JsonSerialize(using = DateSerializer.class)
-    @JsonDeserialize(using = DateDeserializers.DateDeserializer.class)
+    private String birth_date;
+    private String first_name;
+    private String last_name;
+    private String gender;
     @JsonFormat(pattern = "yyyy/MM/dd")
-    private  String startingDate;
+    private  String hire_date;
 
-    public Employee(int id, String DOB, String firstName, String lastName, String gender, String startingDate) {
-        this.id = id;
-
-        this.DOB = DOB;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.Gender = gender;
-        this.startingDate = startingDate;
+    public Employee(int emp_no, String birth_date, String first_name, String last_name, String gender, String hire_date) {
+        this.emp_no = emp_no;
+        this.birth_date = birth_date;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.gender = gender;
+        this.hire_date = hire_date;
     }
+    public Employee(){
 
-    public int getId() {
-        return id;
-    }
-
-
-    public String getDOB() {
-        return DOB;
     }
 
 
-    public String getFirstName() {
-        return firstName;
+    public int getemp_no() {
+        return emp_no;
     }
 
 
-    public String getLastName() {
-        return lastName;
+    public String getbirth_date() {
+        return birth_date;
     }
 
 
-    public String getGender() {
-        return Gender;
+    public String getfirst_name() {
+        return first_name;
     }
 
 
-    public String getStartingDate() {
-        return startingDate;
+    public String getlast_name() {
+        return last_name;
+    }
+
+
+    public String getgender() {
+        return gender;
+    }
+
+
+    public String gethire_date() {
+        return hire_date;
     }
 
     @Override
     public String toString() {
         return "Employee{" +
-                "id=" + id +
-                ", DOB='" + DOB + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", Gender=" + Gender +
-                ", startingDate='" + startingDate + '\'' +
+                "emp_no=" + emp_no +
+                ", birth_date='" + birth_date + '\'' +
+                ", first_name='" + first_name + '\'' +
+                ", last_name='" + last_name + '\'' +
+                ", gender=" + gender +
+                ", hire_date='" + hire_date + '\'' +
                 '}';
     }
 

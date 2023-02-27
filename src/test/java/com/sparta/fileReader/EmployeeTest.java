@@ -17,42 +17,42 @@ class EmployeeTest {
 
     void getIdOfEmployee(int input){
         Employee expected = new Employee(input,"2012/02/11","Zac","Perkins-Jones","M","2012/02/01");
-        assertEquals(expected.getId(),input);
+        assertEquals(expected.getemp_no(),input);
     }
     @Test
     @DisplayName("Get DOB")
     void getDOB(){
         LocalDate input = LocalDate.of(2012,02,11);
         Employee expected = new Employee(1, "2012/02/01","Zac","Perkins-Jones","M","2012/02/01");
-        assertEquals(expected.getDOB(),input);
+        assertEquals(expected.getbirth_date(),input);
     }
     @ParameterizedTest
     @ValueSource(strings = {"Zac","Martin"})
     @DisplayName("Get First Name given input")
     void getFirstName(String input){
         Employee expected = new Employee(1,"2012/02/01",input,"Perkins-Jones","M","2012/02/01");
-        assertEquals(expected.getFirstName(),input);
+        assertEquals(expected.getfirst_name(),input);
     }
     @ParameterizedTest
     @ValueSource(strings = {"Perkins","Jones","Rudd"})
     @DisplayName("Get Last Name Given Input")
     void getLastName(String input){
         Employee expected = new Employee(1,"2012/02/01","Zac",input,"M","2012/02/01");
-        assertEquals(expected.getLastName(),input);
+        assertEquals(expected.getlast_name(),input);
     }
     @ParameterizedTest
     @ValueSource(strings = {"F","M"})
     @DisplayName("Get Gender Given Input")
     void getGender(String input){
         Employee expected = new Employee(1,"2012/02/01","Zac","Perkins-Jones",input,"2012/02/01");
-        assertEquals(expected.getGender(),input);
+        assertEquals(expected.getgender(),input);
     }
     @Test
     @DisplayName("Get Start Date")
     void getStartDate(){
         String input = "2012/02/01";
         Employee expected = new Employee(1,"2012/02/01","Zac","Perkins-Jones","M",input);
-        assertEquals(expected.getStartingDate(),input);
+        assertEquals(expected.gethire_date(),input);
     }
 
     @Test

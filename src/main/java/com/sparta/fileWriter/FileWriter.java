@@ -3,6 +3,8 @@ package com.sparta.fileWriter;
 
 //writes read employees to an output file
 
+import java.util.Scanner;
+
 public class FileWriter {
 
     public static String getFileName(){
